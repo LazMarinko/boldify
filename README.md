@@ -1,0 +1,1 @@
+This is a python code and executable that reads through any .docx file that its given and then makes the first half of every word in the .docx file bold, then makes an edited file with the changes its made
