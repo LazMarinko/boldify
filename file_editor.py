@@ -1,10 +1,11 @@
 import os
-
+from docx.shared import RGBColor
 from docx import Document
 from typing import List
 
 
 def boldifier(path: str) -> str:
+    color: RGBColor = RGBColor(8, 90, 195)
     doc: Document = Document(path)
     for para in doc.paragraphs:
         lines: List[str] = para.text.split('\n')
@@ -22,6 +23,7 @@ def boldifier(path: str) -> str:
 
                 run1 = para.add_run(word_half1)
                 run1.bold = True
+                run1.font.color.rgb = color
                 run2 = para.add_run(word_half2 + " ")
 
     path_split = path.split("\\")
