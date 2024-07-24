@@ -12,6 +12,5 @@ def downloads_searcher():
     for file_path in glob.glob(search_pattern):
         docx_files.append(file_path)
 
-    print(docx_files)
     return docx_files
 
