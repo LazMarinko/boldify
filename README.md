@@ -19,9 +19,9 @@ Although the user interface is simple it is perfectly functional for the app tri
 To use the app simply start the Boldify.exe file and select the desired .docx file from your downloads folder and press the Boldify button.
 Doing so will close the app and open the .docx file with the changes. By default the settings are the following:
 
--Theme: Dark
--Save path of the new file: Users Desktop
--Bold color: Black
+Theme: Dark
+Save path of the new file: Users Desktop
+Bold color: Black
 
 All of the above can be changed in the options menu new with v1.2.
 
